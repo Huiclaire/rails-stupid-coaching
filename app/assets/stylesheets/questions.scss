@@ -1,0 +1,28 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+$gray: #F4F4F4;
+$font-stack: 'Open Sans', sans-serif;
+
+body {
+  font: 100% $font-stack;
+  background: $gray; // Using this variable
+}
+
+li { list-style-type: none; }
+
+.banner {
+  background: red;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+a {
+  color: grey;
+  padding: 6px 12px;
+  &:hover {
+    color: black;
+  }
+}
